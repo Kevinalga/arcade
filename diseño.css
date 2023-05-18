@@ -1,0 +1,232 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+body,
+html {
+    margin: 0
+}
+
+.menup {
+    display: flex;
+    background: linear-gradient(rgb(11, 21, 30), rgb(19, 26, 87));
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+.arcade {
+    display: block;
+    width: 120px;
+    height: 50px;
+    padding: 8px;
+}
+
+
+.barra {
+    display: flex;
+    font-weight: bold;
+    gap: 3em;
+    align-items: center;
+
+}
+
+.t1 {
+    font-family: 'Times New Roman';
+}
+
+.elemento {
+    background-color: rgb(0, 0, 0);
+    margin: 50px;
+    padding: 10px;
+    border: solid;
+    border-radius: 15px;
+    line-height: 150%;
+    font-family: Arial;
+    color: rgb(167, 167, 165);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    display: block;
+    position: relative;
+    width: 50%;
+    transition: all .3s ease;
+    margin: 0 auto;
+}
+
+.imagen img:first-child {
+    display: block;
+    box-shadow: 0 90px 100px -15px rgba(25, 69, 216, 0.5);
+    width: 100%;
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.imagen img:last-child {
+    position: absolute;
+    height: 90%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+.imagen:hover {
+    transform: perspective(750px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+
+.imagen:hover img:first-child {
+    opacity: .4;
+}
+
+.imagen:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.imagen2 {
+    display: block;
+    position: relative;
+    width: 50%;
+    transition: all .3s ease;
+    margin: 0 auto;
+}
+
+.imagen2 img:first-child {
+    display: block;
+    box-shadow: 0 90px 100px -15px rgba(216, 25, 25, 0.5);
+    width: 100%;
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.imagen2 img:last-child {
+    position: absolute;
+    height: 90%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+.imagen2:hover {
+    transform: perspective(750px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+
+.imagen2:hover img:first-child {
+    opacity: .4;
+}
+
+.imagen2:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.imagen3 {
+    display: block;
+    position: relative;
+    width: 50%;
+    transition: all .3s ease;
+    margin: 0 auto;
+}
+
+.imagen3 img:first-child {
+    display: block;
+    box-shadow: 0 90px 100px -15px rgba(218, 214, 12, 0.5);
+    width: 100%;
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.imagen3 img:last-child {
+    position: absolute;
+    height: 90%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+.imagen3:hover {
+    transform: perspective(750px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+
+.imagen3:hover img:first-child {
+    opacity: .4;
+}
+
+.imagen3:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.imagen4 {
+    display: block;
+    position: relative;
+    width: 50%;
+    transition: all .3s ease;
+    margin: 0 auto;
+}
+
+.imagen4 img:first-child {
+    display: block;
+    box-shadow: 0 90px 100px -15px rgba(211, 12, 218, 0.5);
+    width: 100%;
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.imagen4 img:last-child {
+    position: absolute;
+    height: 90%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+.imagen4:hover {
+    transform: perspective(750px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+
+.imagen4:hover img:first-child {
+    opacity: .4;
+}
+
+.imagen4:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}

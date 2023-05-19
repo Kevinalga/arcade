@@ -7,12 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="diseño.css">
+    <script src="js.js"></script>
 </head>
 
 <body background="860215.jpg">
 
     <Header class="menup">
-        <img class=arcade src="Logo.png" alt="Logo">
+        <div class="bar-left-side">
+            <div class="icon" id="left-side-bar-btn">
+                <svg viewBox="0 0 10 10" stroke="currentColor">
+                    <line x1="0" y1="2" x2="10" y2="2"/>
+                    <line x1="0" y1="5" x2="100" y2="5"/>
+                    <line x1="0" y1="8" x2="100" y2="8"/>
+                </svg>
+            </div>
+            <img class=arcade src="Logo.png" alt="Logo">
+        </div>
         <div class="barra">
             <div><a href="#">Inicio</a></div>
             <div><a href="#">Sobre mi</a></div>
@@ -22,8 +32,8 @@
     <div class="contenedor">
         <div class="elemento">
             <div class="imagen">
-                <img src="Mega_man.jpg" alt="imagen de megaman">
-                <img src="image-removebg-preview.png" alt="imagen del cuerpo">
+                <img class="back-img blue-box-shadow" src="Mega_man.jpg" alt="imagen de megaman">
+                <img class="front-img" src="image-removebg-preview.png" alt="imagen del cuerpo">
             </div>
             <h1 class="t1">Mega Man</h1>
             <p> En el año 20XX (algún momento del siglo xxi), el genio de la robótica Dr. Thomas Xavier Light comenzó a
@@ -31,9 +41,9 @@
 
         </div>
         <div class="elemento">
-            <div class="imagen2">
-                <img src="Supermario.jpg" alt="imagen de megaman">
-                <img src="header-mario.png" alt="imagen del cuerpo">
+            <div class="imagen">
+                <img class="back-img red-box-shadow" src="Supermario.jpg" alt="imagen de megaman">
+                <img class="front-img" src="header-mario.png" alt="imagen del cuerpo">
             </div>
             <h1 class="t1">Super Mario Bros</h1>
             <p> Es un videojuego de plataformas, diseñado por Shigeru Miyamoto, lanzado el 13 de septiembre de 1985 y
@@ -41,9 +51,9 @@
                 empresa japonesa Nintendo, para la consola Nintendo Entertainment System. </p>
         </div>
         <div class="elemento">
-            <div class="imagen3">
-                <img src="Paperboy.jpg" alt="imagen de megaman">
-                <img src="Pjpaper.png" alt="imagen del cuerpo">
+            <div class="imagen">
+                <img class="back-img yellow-box-shadow" src="Paperboy.jpg" alt="imagen de megaman">
+                <img class="front-img" src="Pjpaper.png" alt="imagen del cuerpo">
             </div>
             <h1 class="t1">Paper Boy 2</h1>
             <p> Es un videojuego lanzado en 1991. Es la secuela del videojuego Paperboy, el cual consistía en
@@ -51,17 +61,20 @@
                 cartucho se lanzó tanto para consolas de sobremesa como portátiles, como la Gameboy.</p>
         </div>
         <div class="elemento">
-            <div class="imagen4">
-                <img src="S4league.jpg" alt="imagen de megaman">
-                <img src="Pjs4league.png" alt="imagen del cuerpo">
+            <div class="imagen">
+                <img class="back-img pink-box-shadow" src="S4league.jpg" alt="imagen de megaman">
+                <img class="front-img" src="Pjs4league.png" alt="imagen del cuerpo">
             </div>
             <h1 class="t1">S4 League</h1>
             <p> Fue un juego de disparos en tercera persona multijugador desarrollado por Pentavision en 20081​
                 y en 2007 en Corea, GameON Studios en 2012, y Aeria Games a partir del 2018 hasta abril de 2021 tras el
                 cese de su funcionamiento.</p>
         </div>
+        <div id="left-side-bar">
+            <div><a href="#">Inicio</a></div>
+            <div><a href="#">Sobre mi</a></div>
+        </div>
     </div>
 </body>
-<script src="js.js"></script>
 
 </html>
